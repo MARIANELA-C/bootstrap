@@ -1,0 +1,57 @@
+/******Generales********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 10px 10px;
+    text-decoration: underline;
+ }
+ h2{
+     text-align: center;
+    padding: 10px 10px;
+ }
+
+
+ .menuFlex{/*se aplico en index*/
+    display: flex;
+    flex-flow: row nowrap;/*fila, no multilinea*/
+    justify-content: space-evenly;/*distribucion a lo largo de la fila*/
+    align-items: center;/*distribucion a lo alto de la fila, en este caso centrar*/
+}
+.text{
+    text-align: justify;
+}
+.img{
+    padding-left: 70%;
+}
+/***********************ANIMACIONES*****************/
+.texAnUno{
+    animation-name: textoUno;
+    animation-duration: 2s;
+}
+@keyframes textoUno{
+    from{
+        transform: translate(500px);
+        opacity: 1;
+    }
+    to{
+        transform: translate(0);
+    }
+}
+.texAnDos{
+    animation-name: textoDos;
+    animation-duration: 2s;
+}
+@keyframes textoDos{
+    from{
+        transform: translate(-500px);
+        opacity: 1;
+    }
+    to{
+        transform: translate(0);
+    }
+}
