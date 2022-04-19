@@ -7,20 +7,17 @@
 
 h1{
     text-align: center;
-    padding: 20px 10px 10px;
+    padding: 30px 10px 10px 20px;
     text-decoration: underline;
+    margin-top: 30px;
  }
  h2{
      text-align: center;
     padding: 10px 10px;
  }
 
-
- .menuFlex{/*se aplico en index*/
-    display: flex;
-    flex-flow: row nowrap;/*fila, no multilinea*/
-    justify-content: space-evenly;/*distribucion a lo largo de la fila*/
-    align-items: center;/*distribucion a lo alto de la fila, en este caso centrar*/
+.menu{
+    background-color: rgb(235, 178, 164);
 }
 .text{
     text-align: justify;
